@@ -15,5 +15,9 @@
     "urlsEncryption"
   ],
   "author": "Bhuvanachandu Midatha",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "crypto": "^1.0.1"
+  }
 }
