@@ -3,7 +3,7 @@ encrypt and decrypt JSON Objects
 # Example
 ```
     var encryptObject = require("encrypt_object")
-    var encryptionKey = "encryptionKeyencryptionKeyencryptionKeyencryptionKey"
+    var encryptionKey = "encryptionKeyencryptionKeyencryptionKey"
     var crypt = encryptObject( encryptionKey);
     jsonObj = {
         name : "google",

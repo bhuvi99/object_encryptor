@@ -1,6 +1,6 @@
 {
-  "name": "object_encrypter",
-  "version": "1.0.0",
+  "name": "encrypt_object",
+  "version": "1.0.1",
   "description": "We can Encrypt Object , decrypt them. useful for urls",
   "main": "index.js",
   "directories": {
@@ -15,9 +15,18 @@
     "urlsEncryption"
   ],
   "author": "Bhuvanachandu Midatha",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
     "chalk": "^2.4.2",
     "crypto": "^1.0.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhuvi99/object_encryptor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bhuvi99/object_encryptor/issues"
+  },
+  "homepage": "https://github.com/bhuvi99/object_encryptor#readme"
 }
