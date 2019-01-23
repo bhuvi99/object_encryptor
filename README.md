@@ -2,16 +2,16 @@
 encrypt and decrypt JSON Objects
 # Example
 ```
-    var encryptObject = require("encrypt_object")
-    var encryptionKey = "encryptionKeyencryptionKeyencryptionKey"
-    var crypt = encryptObject( encryptionKey);
-    jsonObj = {
+  var encryptObject = require("encrypt_object")
+  var encryptionKey = "encryptionKeyencryptionKeyencryptionKey"
+  var crypt = encryptObject( encryptionKey);
+  jsonObj = {
         name : "google",
         site: "www.google.com"
-    }
-    var encryptedJson = crypt.encryptJson( jsonObj);
-    console.log( "encrypted", encryptedJson);
+  }
+  var encryptedJson = crypt.encryptJson( jsonObj);
+  console.log( "encrypted", encryptedJson);
 
-    var decryptedJson = JSON.parse( crypt.decryptString( encryptedJson) );
-    console.log( decryptedJson );`
+  var decryptedJson = JSON.parse( crypt.decryptString( encryptedJson) );
+  console.log( decryptedJson );
 ```

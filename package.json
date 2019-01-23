@@ -1,6 +1,6 @@
 {
   "name": "encrypt_object",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "We can Encrypt Object , decrypt them. useful for urls",
   "main": "index.js",
   "directories": {
